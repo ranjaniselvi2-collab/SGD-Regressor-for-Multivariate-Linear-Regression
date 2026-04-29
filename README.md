@@ -10,16 +10,20 @@ To write a program to predict the price of the house and number of occupants in 
 ## Algorithm
 
 1. **Initialize model**
+   
    Define ( y = w_0 + w_1x_1 + \dots + w_nx_n ) and set initial weights.
 
 2. **Apply SGD update**
+   
    Update weights for each sample:
    ( w_j = w_j - \alpha (y - \hat{y})x_j )
 
 3. **Train iteratively**
+   
    Loop through data one sample at a time for multiple epochs.
 
 4. **Check convergence**
+ 
    Stop when error (e.g., MSE) becomes minimal or stable
 
 ## Program:
